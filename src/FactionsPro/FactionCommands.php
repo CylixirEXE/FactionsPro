@@ -1061,8 +1061,8 @@ class FactionCommands {
                     /////////////////////////////// ABOUT ///////////////////////////////
 
                     if (strtolower($args[0] == 'about')) {
-                        $sender->sendMessage(TextFormat::GREEN . "[ORIGINAL] FactionsPro v1.3.2 by " . TextFormat::BOLD . "Tethered_");
-                        $sender->sendMessage(TextFormat::GOLD . "[MODDED] This version by MPE and " . TextFormat::BOLD . "Awzaw");
+                        $sender->sendMessage(TextFormat::GREEN . "[ORIGINAL] FactionsPro v1.3.2 by " . TextFormat::BOLD . "CylixirEXE");
+                        $sender->sendMessage(TextFormat::GOLD . "[MODDED] This version by MPE and " . TextFormat::BOLD . "CylixirEXE");
                     }
                     ////////////////////////////// CHAT ////////////////////////////////
                     if (strtolower($args[0]) == "chat" or strtolower($args[0]) == "c") {
